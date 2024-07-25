@@ -16,7 +16,7 @@ body{
     color: #543a58; 
     font-size: 1.5rem; /* Larger font size for the brand */
     font-weight: bold;
-    padding-right: 500px;
+  
     margin-right: 1rem;
   }
   .navbar-brand:hover{
