@@ -1,0 +1,223 @@
+body{
+    padding: 0;
+    
+    background-color: #DFD3C3;
+}
+.fa{
+    color: #000000;
+    padding-right: 1rem;
+    font-size: 1.5rem;
+}
+/* Navbar brand styling */
+.navbar{
+    background-color:#F8EDE3;
+}
+  .navbar-brand {
+    color: #543a58; 
+    font-size: 1.5rem; /* Larger font size for the brand */
+    font-weight: bold;
+    padding-right: 500px;
+    margin-right: 1rem;
+  }
+  .navbar-brand:hover{
+    color: #694772;
+  }
+  .navbar-nav{
+    margin-top: 1rem;
+  }
+  .navbar-nav .nav-item{
+    margin-right: 2rem;
+
+  }
+  
+  /* Navbar links styling */
+  .navbar-nav .nav-link {
+    color: #2d1830; /* Light grey color for the links */
+    margin-right: 1rem; /* Space between links */
+    transition: color 0.3s ease-in-out; /* Smooth transition for color change */
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #d39fd8; /* White color on hover */
+  }
+  
+  .navbar-nav .nav-link.active {
+    color: #2d1830; /* Gold color for active link */
+    font-weight: bold; /* Bold text for active link */
+  }
+  .navbar-nav .nav-link.active:hover{
+    color: #2d1830;
+  }
+  
+  /* Disabled link styling */
+  .navbar-nav .nav-link.disabled {
+    color: #2d1830; /* Grey color for disabled link */
+    cursor: not-allowed; /* Not-allowed cursor for disabled link */
+    font-weight: bold;
+  }
+  
+  /* Navbar toggler button styling */
+  .navbar-toggler {
+    border-color: #ffffff;
+    margin-left: auto;
+ /* Grey border color for the toggler button */
+  }
+
+.first-para{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #2d1830;
+    font-weight: 10rem;
+    font-family: "Alegreya", serif;
+}
+
+.main-header{
+    margin-top: 3rem;
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+        font-size: 52px;
+        font-size: 52px;
+            background: -webkit-linear-gradient(rgb(36, 33, 48), rgb(191, 148, 201));
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+    font-weight: bold;
+
+}
+
+.para{
+    
+    font-size: 1.2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #2d1830;
+    font-weight: 4rem;
+    font-family: "Alegreya", serif;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+  .box {
+    text-align: center;
+    background-color: #DFD3C3;
+    border: 1px solid #ccc;
+    margin: 20px;
+    box-sizing: border-box;
+    flex: 1 1 calc(30% - 20px); /* 3 boxes per row */
+    height: 0;
+    padding-top: 30%; /* This ensures the box is wider */
+    position: relative;
+    
+  }
+
+  .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    .box {
+      flex: 1 1 calc(50% - 20px); /* 2 boxes per row */
+      padding-top: 50%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .box {
+      flex: 1 1 100%; /* 1 box per row */
+      padding-top: 50%;
+    }
+  }
+.box-img{
+    display: block;
+    align-items: center;
+    margin-left:auto;
+    margin-right: 8rem;
+    width: 30%;
+    margin-top: 15rem;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; /* Space between the image and text */
+    
+}
+.parag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 10rem;
+    
+}
+.footer{
+margin: 2rem 5rem 5rem 5rem;
+}
+.footer-head{
+    margin-top: 3rem;
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+        font-size: 50px;
+        font-size: 50px;
+            background: -webkit-linear-gradient(rgb(36, 33, 48), rgb(191, 148, 201));
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+.footer-para1{
+    margin-top: 1.5rem;
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: #2d1830;
+    font-weight: bold;
+   
+}
+.footer-para2{
+    text-align: center;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-family: "Alegreya", serif;
+
+}
+.last-section{
+    background-color: #2d1830;
+    color:white;
+    height:70px;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
